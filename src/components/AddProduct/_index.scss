@@ -1,0 +1,61 @@
+#cmpAddProduct {
+	width: 600px;
+	margin: 50px auto;
+	padding: 50px;
+	background: #2a2b2a;
+
+	h2 {
+		text-align: center;
+		color: #f49322;
+		font-size: 30px;
+		line-height: 35px;
+		font-weight: 300;
+		padding-bottom: 30px;
+	}
+
+	input[type="text"], textarea, input[type="number"] {
+		border: 1px solid hsla(0, 0%, 80%, .7);
+		background: rgba(67, 67, 67, .7);
+		height: 50px;
+		border-radius: 0;
+		padding: 10px 20px;
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+		font-size: 14px;
+		color: #ccc;
+	}
+
+	textarea {
+		height: 200px;
+		overflow: auto;
+	}
+
+	button {
+		cursor: pointer;
+		display: block;
+		border: 2px solid #f49322;
+		height: 50px;
+		font-size: 18px;
+		text-align: center;
+		width: 200px;
+		background: none;
+		color: #f49322;
+		margin: 0 auto;
+		transition: all .3s ease;
+
+		&:hover {
+			color: #2a2b2a;
+			background: #f49322;
+		}
+	}
+
+	.btn-back {
+		color: #fff;
+		text-decoration: none;
+		transition: all .3s ease;
+		&:hover {
+			color: #f49322;
+		}
+	}
+}
